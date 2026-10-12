@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>Mumbai DCR Compliance Checker</Name>
+    <Assembly>MumbaiDCRChecker.dll</Assembly>
+    <FullClassName>MumbaiDCRChecker.Commands.DCRCheckCommand</FullClassName>
+    <ClientId>F8A3C2B1-D4E5-6789-ABCD-123456789ABC</ClientId>
+    <VendorId>MumbaiDCR</VendorId>
+    <VendorDescription>Mumbai DCR Compliance Checker Plugin</VendorDescription>
+    <Text>DCR Compliance Check</Text>
+    <Description>Check building model against DCPR 2034 and NBC 2016 norms</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+  </AddIn>
+</RevitAddIns>
